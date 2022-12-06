@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFAFC99F293EFAA700F84288 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAFC99E293EFAA700F84288 /* AppDelegate.swift */; };
+		CFAFC9A1293EFAA700F84288 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAFC9A0293EFAA700F84288 /* SceneDelegate.swift */; };
+		CFAFC9A3293EFAA700F84288 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAFC9A2293EFAA700F84288 /* ViewController.swift */; };
+		CFAFC9A6293EFAA700F84288 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFAFC9A4293EFAA700F84288 /* Main.storyboard */; };
+		CFAFC9A8293EFAA900F84288 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFAFC9A7293EFAA900F84288 /* Assets.xcassets */; };
+		CFAFC9AB293EFAA900F84288 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFAFC9A9293EFAA900F84288 /* LaunchScreen.storyboard */; };
+		CFAFC9B6293EFAA900F84288 /* VirtualLearnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAFC9B5293EFAA900F84288 /* VirtualLearnTests.swift */; };
+		CFAFC9C1293EFAAA00F84288 /* VirtualLearnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAFC9C0293EFAAA00F84288 /* VirtualLearnUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFAFC9B2293EFAA900F84288 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFAFC993293EFAA700F84288 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFAFC99A293EFAA700F84288;
+			remoteInfo = VirtualLearn;
+		};
+		CFAFC9BD293EFAAA00F84288 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFAFC993293EFAA700F84288 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFAFC99A293EFAA700F84288;
+			remoteInfo = VirtualLearn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFAFC99B293EFAA700F84288 /* VirtualLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFAFC99E293EFAA700F84288 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFAFC9A0293EFAA700F84288 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CFAFC9A2293EFAA700F84288 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CFAFC9A5293EFAA700F84288 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFAFC9A7293EFAA900F84288 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFAFC9AA293EFAA900F84288 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFAFC9AC293EFAA900F84288 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFAFC9B1293EFAA900F84288 /* VirtualLearnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtualLearnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFAFC9B5293EFAA900F84288 /* VirtualLearnTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualLearnTests.swift; sourceTree = "<group>"; };
+		CFAFC9B7293EFAA900F84288 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFAFC9BC293EFAAA00F84288 /* VirtualLearnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtualLearnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFAFC9C0293EFAAA00F84288 /* VirtualLearnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualLearnUITests.swift; sourceTree = "<group>"; };
+		CFAFC9C2293EFAAA00F84288 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFAFC998293EFAA700F84288 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFAFC9AE293EFAA900F84288 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFAFC9B9293EFAAA00F84288 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFAFC992293EFAA700F84288 = {
+			isa = PBXGroup;
+			children = (
+				CFAFC99D293EFAA700F84288 /* VirtualLearn */,
+				CFAFC9B4293EFAA900F84288 /* VirtualLearnTests */,
+				CFAFC9BF293EFAAA00F84288 /* VirtualLearnUITests */,
+				CFAFC99C293EFAA700F84288 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFAFC99C293EFAA700F84288 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFAFC99B293EFAA700F84288 /* VirtualLearn.app */,
+				CFAFC9B1293EFAA900F84288 /* VirtualLearnTests.xctest */,
+				CFAFC9BC293EFAAA00F84288 /* VirtualLearnUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFAFC99D293EFAA700F84288 /* VirtualLearn */ = {
+			isa = PBXGroup;
+			children = (
+				CFAFC99E293EFAA700F84288 /* AppDelegate.swift */,
+				CFAFC9A0293EFAA700F84288 /* SceneDelegate.swift */,
+				CFAFC9A2293EFAA700F84288 /* ViewController.swift */,
+				CFAFC9A4293EFAA700F84288 /* Main.storyboard */,
+				CFAFC9A7293EFAA900F84288 /* Assets.xcassets */,
+				CFAFC9A9293EFAA900F84288 /* LaunchScreen.storyboard */,
+				CFAFC9AC293EFAA900F84288 /* Info.plist */,
+			);
+			path = VirtualLearn;
+			sourceTree = "<group>";
+		};
+		CFAFC9B4293EFAA900F84288 /* VirtualLearnTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFAFC9B5293EFAA900F84288 /* VirtualLearnTests.swift */,
+				CFAFC9B7293EFAA900F84288 /* Info.plist */,
+			);
+			path = VirtualLearnTests;
+			sourceTree = "<group>";
+		};
+		CFAFC9BF293EFAAA00F84288 /* VirtualLearnUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFAFC9C0293EFAAA00F84288 /* VirtualLearnUITests.swift */,
+				CFAFC9C2293EFAAA00F84288 /* Info.plist */,
+			);
+			path = VirtualLearnUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFAFC99A293EFAA700F84288 /* VirtualLearn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFAFC9C5293EFAAA00F84288 /* Build configuration list for PBXNativeTarget "VirtualLearn" */;
+			buildPhases = (
+				CFAFC997293EFAA700F84288 /* Sources */,
+				CFAFC998293EFAA700F84288 /* Frameworks */,
+				CFAFC999293EFAA700F84288 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VirtualLearn;
+			productName = VirtualLearn;
+			productReference = CFAFC99B293EFAA700F84288 /* VirtualLearn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFAFC9B0293EFAA900F84288 /* VirtualLearnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFAFC9C8293EFAAA00F84288 /* Build configuration list for PBXNativeTarget "VirtualLearnTests" */;
+			buildPhases = (
+				CFAFC9AD293EFAA900F84288 /* Sources */,
+				CFAFC9AE293EFAA900F84288 /* Frameworks */,
+				CFAFC9AF293EFAA900F84288 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFAFC9B3293EFAA900F84288 /* PBXTargetDependency */,
+			);
+			name = VirtualLearnTests;
+			productName = VirtualLearnTests;
+			productReference = CFAFC9B1293EFAA900F84288 /* VirtualLearnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFAFC9BB293EFAAA00F84288 /* VirtualLearnUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFAFC9CB293EFAAA00F84288 /* Build configuration list for PBXNativeTarget "VirtualLearnUITests" */;
+			buildPhases = (
+				CFAFC9B8293EFAAA00F84288 /* Sources */,
+				CFAFC9B9293EFAAA00F84288 /* Frameworks */,
+				CFAFC9BA293EFAAA00F84288 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFAFC9BE293EFAAA00F84288 /* PBXTargetDependency */,
+			);
+			name = VirtualLearnUITests;
+			productName = VirtualLearnUITests;
+			productReference = CFAFC9BC293EFAAA00F84288 /* VirtualLearnUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFAFC993293EFAA700F84288 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					CFAFC99A293EFAA700F84288 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					CFAFC9B0293EFAA900F84288 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = CFAFC99A293EFAA700F84288;
+					};
+					CFAFC9BB293EFAAA00F84288 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = CFAFC99A293EFAA700F84288;
+					};
+				};
+			};
+			buildConfigurationList = CFAFC996293EFAA700F84288 /* Build configuration list for PBXProject "VirtualLearn" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFAFC992293EFAA700F84288;
+			productRefGroup = CFAFC99C293EFAA700F84288 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFAFC99A293EFAA700F84288 /* VirtualLearn */,
+				CFAFC9B0293EFAA900F84288 /* VirtualLearnTests */,
+				CFAFC9BB293EFAAA00F84288 /* VirtualLearnUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFAFC999293EFAA700F84288 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFAFC9AB293EFAA900F84288 /* LaunchScreen.storyboard in Resources */,
+				CFAFC9A8293EFAA900F84288 /* Assets.xcassets in Resources */,
+				CFAFC9A6293EFAA700F84288 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFAFC9AF293EFAA900F84288 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFAFC9BA293EFAAA00F84288 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFAFC997293EFAA700F84288 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFAFC9A3293EFAA700F84288 /* ViewController.swift in Sources */,
+				CFAFC99F293EFAA700F84288 /* AppDelegate.swift in Sources */,
+				CFAFC9A1293EFAA700F84288 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFAFC9AD293EFAA900F84288 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFAFC9B6293EFAA900F84288 /* VirtualLearnTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFAFC9B8293EFAAA00F84288 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFAFC9C1293EFAAA00F84288 /* VirtualLearnUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFAFC9B3293EFAA900F84288 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFAFC99A293EFAA700F84288 /* VirtualLearn */;
+			targetProxy = CFAFC9B2293EFAA900F84288 /* PBXContainerItemProxy */;
+		};
+		CFAFC9BE293EFAAA00F84288 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFAFC99A293EFAA700F84288 /* VirtualLearn */;
+			targetProxy = CFAFC9BD293EFAAA00F84288 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFAFC9A4293EFAA700F84288 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFAFC9A5293EFAA700F84288 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFAFC9A9293EFAA900F84288 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFAFC9AA293EFAA900F84288 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFAFC9C3293EFAAA00F84288 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFAFC9C4293EFAAA00F84288 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFAFC9C6293EFAAA00F84288 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VirtualLearn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ManishRobosoft.VirtualLearn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFAFC9C7293EFAAA00F84288 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VirtualLearn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ManishRobosoft.VirtualLearn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CFAFC9C9293EFAAA00F84288 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VirtualLearnTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ManishRobosoft.VirtualLearnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirtualLearn.app/VirtualLearn";
+			};
+			name = Debug;
+		};
+		CFAFC9CA293EFAAA00F84288 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VirtualLearnTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ManishRobosoft.VirtualLearnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirtualLearn.app/VirtualLearn";
+			};
+			name = Release;
+		};
+		CFAFC9CC293EFAAA00F84288 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VirtualLearnUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ManishRobosoft.VirtualLearnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VirtualLearn;
+			};
+			name = Debug;
+		};
+		CFAFC9CD293EFAAA00F84288 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VirtualLearnUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ManishRobosoft.VirtualLearnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VirtualLearn;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFAFC996293EFAA700F84288 /* Build configuration list for PBXProject "VirtualLearn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFAFC9C3293EFAAA00F84288 /* Debug */,
+				CFAFC9C4293EFAAA00F84288 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFAFC9C5293EFAAA00F84288 /* Build configuration list for PBXNativeTarget "VirtualLearn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFAFC9C6293EFAAA00F84288 /* Debug */,
+				CFAFC9C7293EFAAA00F84288 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFAFC9C8293EFAAA00F84288 /* Build configuration list for PBXNativeTarget "VirtualLearnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFAFC9C9293EFAAA00F84288 /* Debug */,
+				CFAFC9CA293EFAAA00F84288 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFAFC9CB293EFAAA00F84288 /* Build configuration list for PBXNativeTarget "VirtualLearnUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFAFC9CC293EFAAA00F84288 /* Debug */,
+				CFAFC9CD293EFAAA00F84288 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFAFC993293EFAA700F84288 /* Project object */;
+}
