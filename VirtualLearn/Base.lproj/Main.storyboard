@@ -257,6 +257,12 @@
                             <constraint firstItem="mll-gq-QKV" firstAttribute="leading" secondItem="1u1-zC-8M3" secondAttribute="leading" id="pu5-au-3QP"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="firstDigitUnderView" destination="sk7-Dh-JgO" id="vMI-ZW-Yqd"/>
+                        <outlet property="fourthDigitUnderView" destination="CuC-FM-3Fp" id="Fqg-Vz-fGr"/>
+                        <outlet property="secondDigitUnderView" destination="pu7-RN-fVI" id="jzA-YZ-4ez"/>
+                        <outlet property="thirdDigitUnderView" destination="3so-Ce-5bN" id="nZp-em-bx2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="89c-OE-ZNe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
