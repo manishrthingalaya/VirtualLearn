@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class OnboardingViewController: UIViewController {
     
     //manish
     //Manish T
