@@ -8,10 +8,22 @@
 import UIKit
 
 class OnboardingViewController: UIViewController {
-
+    
     @IBOutlet weak var pageControl: UIPageControl!
     @IBOutlet weak var onboardingCollectionView: UICollectionView!
-    @IBOutlet weak var titleTxt: UILabel!
+    @IBOutlet weak var nextBtn: UIButton!
+    
+    var currentPage = 0 {
+        didSet {
+            if currentPage == slides.count - 1{
+                nextBtn.setImage(#imageLiteral(resourceName: "btn_done"), for: .normal)
+            }else{
+                
+                nextBtn.setImage(#imageLiteral(resourceName: "btn_next"), for: .normal)
+            }
+        }
+    }
+    
     
     var slides: [OnboardingSlide] = []
     
@@ -27,9 +39,29 @@ class OnboardingViewController: UIViewController {
         
         slides = [OnboardingSlide(title: "Learner Engagement", onboardingDescription: "Interactive features mirror the traditional classroom experience and learners receive feedback to increase long-term retention, tripling learning efficacy over standard video.", onboardingImage: #imageLiteral(resourceName: "img_onboarding_illustration1")) , OnboardingSlide(title: "Accountable Tracking", onboardingDescription: "Receive immediate, accessible data (both performance and behavior-based) to effectively remediate concepts, automatically assign grades, and address deficiencies.", onboardingImage: #imageLiteral(resourceName: "img_onboarding_illustration2")), OnboardingSlide(title: "Seamless Workflow", onboardingDescription: "Sync rosters, create and assign impactful video experiences, enrich your flipped classroom, and streamline tedious grading.", onboardingImage: #imageLiteral(resourceName: "img_onboarding_illustration3"))]
         
+        pageControl.transform = CGAffineTransform(scaleX: 1, y: 1)
+      
     }
-
+    
     @IBAction func onClickNext(_ sender: Any) {
+        
+        
+        if currentPage == slides.count - 1 {
+            
+            print("go to next page")
+            
+        }else{
+            
+            currentPage += 1
+            pageControl.currentPage = currentPage
+            self.onboardingCollectionView.contentOffset.x += onboardingCollectionView.frame.width
+
+            UIView.animate(withDuration: 0.2, delay: 0, options: UIView.AnimationOptions.curveEaseOut, animations: {
+                self.view.layoutIfNeeded()
+
+                    }, completion: nil)
+        }
+        
     }
     
     @IBAction func onClickSkip(_ sender: Any) {
@@ -42,19 +74,48 @@ class OnboardingViewController: UIViewController {
 }
 
 
-extension OnboardingViewController: UICollectionViewDelegate, UICollectionViewDataSource {
+extension OnboardingViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return slides.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-         
+        
         let cell = onboardingCollectionView.dequeueReusableCell(withReuseIdentifier: OnboardingCollectionViewCell.identifier, for: indexPath) as! OnboardingCollectionViewCell
         cell.setup(slides[indexPath.row])
         
         return cell
     }
-
     
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        
+        
+        let noOfCellsInRow = 1   //number of column you want
+        let flowLayout = collectionViewLayout as! UICollectionViewFlowLayout
+        let totalSpace = flowLayout.sectionInset.left
+            + flowLayout.sectionInset.right
+            + (flowLayout.minimumInteritemSpacing * CGFloat(noOfCellsInRow - 1))
+        
+        let size = (collectionView.bounds.width - totalSpace) / CGFloat(noOfCellsInRow)
+        return CGSize(width: onboardingCollectionView.frame.width , height: onboardingCollectionView.frame.height)
+        
+        //return CGSize(width: size, height: onboardingCollectionView.frame.height)
+    }
+    
+    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        
+        coordinator.animate(alongsideTransition: nil) { (context) -> Void in
+            self.onboardingCollectionView.reloadData()
+        }
+    }
+    
+    func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
+         
+        let width = scrollView.frame.width
+        currentPage = Int(scrollView.contentOffset.x / width)
+        pageControl.currentPage = currentPage
+    
+        
+    }
 }
 
