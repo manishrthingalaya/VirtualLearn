@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5991C750293F0684001F91AE /* VerifyAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5991C74F293F0684001F91AE /* VerifyAccountViewController.swift */; };
+		5991C760293F0910001F91AE /* Proxima Nova Alt Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5991C758293F0910001F91AE /* Proxima Nova Alt Thin.otf */; };
+		5991C761293F0910001F91AE /* Proxima Nova Alt Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5991C759293F0910001F91AE /* Proxima Nova Alt Bold.otf */; };
+		5991C762293F0910001F91AE /* Proxima Nova Extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5991C75A293F0910001F91AE /* Proxima Nova Extrabold.otf */; };
+		5991C763293F0910001F91AE /* Proxima Nova Alt Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5991C75B293F0910001F91AE /* Proxima Nova Alt Light.otf */; };
+		5991C764293F0910001F91AE /* Proxima Nova Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5991C75C293F0910001F91AE /* Proxima Nova Black.otf */; };
+		5991C765293F0910001F91AE /* Proxima Nova Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5991C75D293F0910001F91AE /* Proxima Nova Bold.otf */; };
+		5991C766293F0910001F91AE /* ProximaNova-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5991C75E293F0910001F91AE /* ProximaNova-Regular.otf */; };
+		5991C767293F0910001F91AE /* Proxima Nova Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5991C75F293F0910001F91AE /* Proxima Nova Thin.otf */; };
+		5991C772293F0919001F91AE /* JSMR Biko Read Me.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5991C76C293F0919001F91AE /* JSMR Biko Read Me.jpg */; };
+		5991C773293F0919001F91AE /* Biko_Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5991C76D293F0919001F91AE /* Biko_Regular.otf */; };
+		5991C774293F0919001F91AE /* Biko_Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5991C76E293F0919001F91AE /* Biko_Bold.otf */; };
+		5991C775293F0919001F91AE /* Biko_Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5991C76F293F0919001F91AE /* Biko_Black.otf */; };
+		5991C776293F0919001F91AE /* Biko_Light Readme.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5991C770293F0919001F91AE /* Biko_Light Readme.rtf */; };
+		5991C777293F0919001F91AE /* Biko_Light-Restricted.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5991C771293F0919001F91AE /* Biko_Light-Restricted.otf */; };
 		CF523191293F03FF00C56B7F /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF523190293F03FF00C56B7F /* LandingViewController.swift */; };
 		CFAFC99F293EFAA700F84288 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAFC99E293EFAA700F84288 /* AppDelegate.swift */; };
 		CFAFC9A1293EFAA700F84288 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAFC9A0293EFAA700F84288 /* SceneDelegate.swift */; };
@@ -36,6 +51,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5991C74F293F0684001F91AE /* VerifyAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyAccountViewController.swift; sourceTree = "<group>"; };
+		5991C758293F0910001F91AE /* Proxima Nova Alt Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Alt Thin.otf"; sourceTree = "<group>"; };
+		5991C759293F0910001F91AE /* Proxima Nova Alt Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Alt Bold.otf"; sourceTree = "<group>"; };
+		5991C75A293F0910001F91AE /* Proxima Nova Extrabold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Extrabold.otf"; sourceTree = "<group>"; };
+		5991C75B293F0910001F91AE /* Proxima Nova Alt Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Alt Light.otf"; sourceTree = "<group>"; };
+		5991C75C293F0910001F91AE /* Proxima Nova Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Black.otf"; sourceTree = "<group>"; };
+		5991C75D293F0910001F91AE /* Proxima Nova Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Bold.otf"; sourceTree = "<group>"; };
+		5991C75E293F0910001F91AE /* ProximaNova-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Regular.otf"; sourceTree = "<group>"; };
+		5991C75F293F0910001F91AE /* Proxima Nova Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Thin.otf"; sourceTree = "<group>"; };
+		5991C76C293F0919001F91AE /* JSMR Biko Read Me.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "JSMR Biko Read Me.jpg"; sourceTree = "<group>"; };
+		5991C76D293F0919001F91AE /* Biko_Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Biko_Regular.otf; sourceTree = "<group>"; };
+		5991C76E293F0919001F91AE /* Biko_Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Biko_Bold.otf; sourceTree = "<group>"; };
+		5991C76F293F0919001F91AE /* Biko_Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Biko_Black.otf; sourceTree = "<group>"; };
+		5991C770293F0919001F91AE /* Biko_Light Readme.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "Biko_Light Readme.rtf"; sourceTree = "<group>"; };
+		5991C771293F0919001F91AE /* Biko_Light-Restricted.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Biko_Light-Restricted.otf"; sourceTree = "<group>"; };
 		CF523190293F03FF00C56B7F /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
 		CFAFC99B293EFAA700F84288 /* VirtualLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFAFC99E293EFAA700F84288 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -78,11 +108,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5991C74E293F063C001F91AE /* VerifyAccount */ = {
+			isa = PBXGroup;
+			children = (
+				5991C74F293F0684001F91AE /* VerifyAccountViewController.swift */,
+			);
+			path = VerifyAccount;
+			sourceTree = "<group>";
+		};
+		5991C757293F0910001F91AE /* proxima */ = {
+			isa = PBXGroup;
+			children = (
+				5991C758293F0910001F91AE /* Proxima Nova Alt Thin.otf */,
+				5991C759293F0910001F91AE /* Proxima Nova Alt Bold.otf */,
+				5991C75A293F0910001F91AE /* Proxima Nova Extrabold.otf */,
+				5991C75B293F0910001F91AE /* Proxima Nova Alt Light.otf */,
+				5991C75C293F0910001F91AE /* Proxima Nova Black.otf */,
+				5991C75D293F0910001F91AE /* Proxima Nova Bold.otf */,
+				5991C75E293F0910001F91AE /* ProximaNova-Regular.otf */,
+				5991C75F293F0910001F91AE /* Proxima Nova Thin.otf */,
+			);
+			path = proxima;
+			sourceTree = "<group>";
+		};
+		5991C76B293F0919001F91AE /* biko */ = {
+			isa = PBXGroup;
+			children = (
+				5991C76C293F0919001F91AE /* JSMR Biko Read Me.jpg */,
+				5991C76D293F0919001F91AE /* Biko_Regular.otf */,
+				5991C76E293F0919001F91AE /* Biko_Bold.otf */,
+				5991C76F293F0919001F91AE /* Biko_Black.otf */,
+				5991C770293F0919001F91AE /* Biko_Light Readme.rtf */,
+				5991C771293F0919001F91AE /* Biko_Light-Restricted.otf */,
+			);
+			path = biko;
+			sourceTree = "<group>";
+		};
+		5991C77B293F0B31001F91AE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5991C76B293F0919001F91AE /* biko */,
+				5991C757293F0910001F91AE /* proxima */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		CF523184293F02BA00C56B7F /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				CF52318C293F03C400C56B7F /* Landing */,
 				CF523188293F034200C56B7F /* Onboarding */,
+				CF52318C293F03C400C56B7F /* Landing */,
+				5991C74E293F063C001F91AE /* VerifyAccount */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -154,6 +230,7 @@
 		CFAFC99D293EFAA700F84288 /* VirtualLearn */ = {
 			isa = PBXGroup;
 			children = (
+				5991C77B293F0B31001F91AE /* Fonts */,
 				CF523184293F02BA00C56B7F /* ViewControllers */,
 				CF52319A293F046700C56B7F /* Model */,
 				CF523199293F045C00C56B7F /* ViewModel */,
@@ -290,9 +367,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5991C765293F0910001F91AE /* Proxima Nova Bold.otf in Resources */,
+				5991C766293F0910001F91AE /* ProximaNova-Regular.otf in Resources */,
+				5991C760293F0910001F91AE /* Proxima Nova Alt Thin.otf in Resources */,
 				CFAFC9AB293EFAA900F84288 /* LaunchScreen.storyboard in Resources */,
+				5991C777293F0919001F91AE /* Biko_Light-Restricted.otf in Resources */,
+				5991C767293F0910001F91AE /* Proxima Nova Thin.otf in Resources */,
+				5991C774293F0919001F91AE /* Biko_Bold.otf in Resources */,
+				5991C763293F0910001F91AE /* Proxima Nova Alt Light.otf in Resources */,
 				CFAFC9A8293EFAA900F84288 /* Assets.xcassets in Resources */,
 				CFAFC9A6293EFAA700F84288 /* Main.storyboard in Resources */,
+				5991C776293F0919001F91AE /* Biko_Light Readme.rtf in Resources */,
+				5991C775293F0919001F91AE /* Biko_Black.otf in Resources */,
+				5991C762293F0910001F91AE /* Proxima Nova Extrabold.otf in Resources */,
+				5991C764293F0910001F91AE /* Proxima Nova Black.otf in Resources */,
+				5991C761293F0910001F91AE /* Proxima Nova Alt Bold.otf in Resources */,
+				5991C772293F0919001F91AE /* JSMR Biko Read Me.jpg in Resources */,
+				5991C773293F0919001F91AE /* Biko_Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +408,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5991C750293F0684001F91AE /* VerifyAccountViewController.swift in Sources */,
 				CFAFC9A3293EFAA700F84288 /* OnboardingViewController.swift in Sources */,
 				CFAFC99F293EFAA700F84288 /* AppDelegate.swift in Sources */,
 				CF523191293F03FF00C56B7F /* LandingViewController.swift in Sources */,

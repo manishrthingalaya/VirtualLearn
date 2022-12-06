@@ -62,5 +62,14 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Biko_Regular</string>
+		<string>Biko_Bold</string>
+		<string>Biko_Light Readme</string>
+		<string>ProximaNova-Regular</string>
+		<string>Proxima Nova Bold</string>
+		<string>Proxima Nova Alt Thin</string>
+	</array>
 </dict>
 </plist>
