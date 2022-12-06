@@ -48,7 +48,9 @@ class OnboardingViewController: UIViewController {
         
         if currentPage == slides.count - 1 {
             
-            print("go to next page")
+            let vc = storyboard?.instantiateViewController(identifier: "LandingViewController") as! LandingViewController
+            
+            navigationController?.pushViewController(vc, animated: true)
             
         }else{
             
@@ -65,6 +67,10 @@ class OnboardingViewController: UIViewController {
     }
     
     @IBAction func onClickSkip(_ sender: Any) {
+        let vc = storyboard?.instantiateViewController(identifier: "LandingViewController") as! LandingViewController
+        
+        navigationController?.pushViewController(vc, animated: true)
+        
     }
     
     @IBAction func pageControl(_ sender: Any) {
