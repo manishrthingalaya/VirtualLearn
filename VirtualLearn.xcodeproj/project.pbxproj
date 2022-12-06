@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		590194AF293F711F00055C24 /* VerifyAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590194AE293F711F00055C24 /* VerifyAccountViewController.swift */; };
+		590194B8293F714300055C24 /* NewAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590194B5293F714300055C24 /* NewAccountViewController.swift */; };
+		590194BF293F715D00055C24 /* textField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590194BD293F715D00055C24 /* textField.swift */; };
+		590194C0293F715D00055C24 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590194BE293F715D00055C24 /* ButtonView.swift */; };
+		590194C6293F717300055C24 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590194C5293F717300055C24 /* LandingViewController.swift */; };
 		CF5231A3293F214600C56B7F /* OnboaringSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5231A2293F214600C56B7F /* OnboaringSlide.swift */; };
 		CF5231A8293F287A00C56B7F /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5231A7293F287A00C56B7F /* OnboardingCollectionViewCell.swift */; };
 		CFAFC99F293EFAA700F84288 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAFC99E293EFAA700F84288 /* AppDelegate.swift */; };
@@ -40,6 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		590194AE293F711F00055C24 /* VerifyAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyAccountViewController.swift; sourceTree = "<group>"; };
+		590194B5293F714300055C24 /* NewAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewAccountViewController.swift; sourceTree = "<group>"; };
+		590194BD293F715D00055C24 /* textField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = textField.swift; sourceTree = "<group>"; };
+		590194BE293F715D00055C24 /* ButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		590194C5293F717300055C24 /* LandingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
 		CF5231A2293F214600C56B7F /* OnboaringSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboaringSlide.swift; sourceTree = "<group>"; };
 		CF5231A7293F287A00C56B7F /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
 		CFAFC99B293EFAA700F84288 /* VirtualLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,11 +96,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		590194AD293F711F00055C24 /* VerifyAccount */ = {
+			isa = PBXGroup;
+			children = (
+				590194AE293F711F00055C24 /* VerifyAccountViewController.swift */,
+			);
+			path = VerifyAccount;
+			sourceTree = "<group>";
+		};
+		590194B3293F714300055C24 /* NewAccount */ = {
+			isa = PBXGroup;
+			children = (
+				590194B5293F714300055C24 /* NewAccountViewController.swift */,
+			);
+			path = NewAccount;
+			sourceTree = "<group>";
+		};
+		590194C4293F717300055C24 /* Landing */ = {
+			isa = PBXGroup;
+			children = (
+				590194C5293F717300055C24 /* LandingViewController.swift */,
+			);
+			path = Landing;
+			sourceTree = "<group>";
+		};
 		CF523184293F02BA00C56B7F /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				CF52318C293F03C400C56B7F /* Landing */,
 				CF523188293F034200C56B7F /* Onboarding */,
+				590194C4293F717300055C24 /* Landing */,
+				590194B3293F714300055C24 /* NewAccount */,
+				590194AD293F711F00055C24 /* VerifyAccount */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -104,16 +140,11 @@
 			path = Onboarding;
 			sourceTree = "<group>";
 		};
-		CF52318C293F03C400C56B7F /* Landing */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Landing;
-			sourceTree = "<group>";
-		};
 		CF523198293F044A00C56B7F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				590194BE293F715D00055C24 /* ButtonView.swift */,
+				590194BD293F715D00055C24 /* textField.swift */,
 				CFF1963A293F500800802396 /* pagecontrolExtension.swift */,
 			);
 			path = View;
@@ -331,11 +362,16 @@
 			files = (
 				CFF19645293F5C4F00802396 /* NetworkManager.swift in Sources */,
 				CFAFC9A3293EFAA700F84288 /* OnboardingViewController.swift in Sources */,
+				590194BF293F715D00055C24 /* textField.swift in Sources */,
 				CFAFC99F293EFAA700F84288 /* AppDelegate.swift in Sources */,
+				590194C0293F715D00055C24 /* ButtonView.swift in Sources */,
 				CFF1963B293F500800802396 /* pagecontrolExtension.swift in Sources */,
+				590194B8293F714300055C24 /* NewAccountViewController.swift in Sources */,
 				CFAFC9A1293EFAA700F84288 /* SceneDelegate.swift in Sources */,
+				590194AF293F711F00055C24 /* VerifyAccountViewController.swift in Sources */,
 				CF5231A3293F214600C56B7F /* OnboaringSlide.swift in Sources */,
 				CFF19640293F5C3F00802396 /* viewModel.swift in Sources */,
+				590194C6293F717300055C24 /* LandingViewController.swift in Sources */,
 				CF5231A8293F287A00C56B7F /* OnboardingCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
