@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BA17E77293F05E900E09E05 /* NewAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA17E76293F05E900E09E05 /* NewAccountViewController.swift */; };
+		1BA17E7F293F210F00E09E05 /* textField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA17E7E293F210F00E09E05 /* textField.swift */; };
+		1BDC5F0D293F510F00BE877F /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDC5F0C293F510F00BE877F /* ButtonView.swift */; };
 		CF523191293F03FF00C56B7F /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF523190293F03FF00C56B7F /* LandingViewController.swift */; };
 		CFAFC99F293EFAA700F84288 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAFC99E293EFAA700F84288 /* AppDelegate.swift */; };
 		CFAFC9A1293EFAA700F84288 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAFC9A0293EFAA700F84288 /* SceneDelegate.swift */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BA17E76293F05E900E09E05 /* NewAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAccountViewController.swift; sourceTree = "<group>"; };
+		1BA17E7E293F210F00E09E05 /* textField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = textField.swift; path = VirtualLearn/ViewControllers/NewAccount/textField.swift; sourceTree = SOURCE_ROOT; };
+		1BDC5F0C293F510F00BE877F /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ButtonView.swift; path = VirtualLearn/ViewControllers/NewAccount/ButtonView.swift; sourceTree = SOURCE_ROOT; };
 		CF523190293F03FF00C56B7F /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
 		CFAFC99B293EFAA700F84288 /* VirtualLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFAFC99E293EFAA700F84288 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -78,9 +84,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BA17E75293F05C200E09E05 /* NewAccount */ = {
+			isa = PBXGroup;
+			children = (
+				1BA17E76293F05E900E09E05 /* NewAccountViewController.swift */,
+			);
+			path = NewAccount;
+			sourceTree = "<group>";
+		};
 		CF523184293F02BA00C56B7F /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				1BA17E75293F05C200E09E05 /* NewAccount */,
 				CF52318C293F03C400C56B7F /* Landing */,
 				CF523188293F034200C56B7F /* Onboarding */,
 			);
@@ -106,6 +121,8 @@
 		CF523198293F044A00C56B7F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1BA17E7E293F210F00E09E05 /* textField.swift */,
+				1BDC5F0C293F510F00BE877F /* ButtonView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -320,7 +337,10 @@
 				CFAFC9A3293EFAA700F84288 /* OnboardingViewController.swift in Sources */,
 				CFAFC99F293EFAA700F84288 /* AppDelegate.swift in Sources */,
 				CF523191293F03FF00C56B7F /* LandingViewController.swift in Sources */,
+				1BA17E7F293F210F00E09E05 /* textField.swift in Sources */,
+				1BA17E77293F05E900E09E05 /* NewAccountViewController.swift in Sources */,
 				CFAFC9A1293EFAA700F84288 /* SceneDelegate.swift in Sources */,
+				1BDC5F0D293F510F00BE877F /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
